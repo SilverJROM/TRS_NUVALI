@@ -5,7 +5,7 @@
 -->
 <html>
   <head>
-    <title>CONTACT - TRS Nuvali by AgJ</title>
+    <title>FAQs - TRS Nuvali by AgJ</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -60,11 +60,52 @@
         <section id="one">
           <div class="inner">
             <header class="major">
-              <h1>CONTACT</h1>
+              <h1>FAQ</h1>
             </header>
+            <span class="image main"
+              ><img src="images/FAQ_banner.jpg" alt=""
+            /></span>
+          <div id="faq-list" class="faq-list">
+            <p>Loading FAQs... <span class="spinner"></span></p>
+          </div>
+          <style>
+            .spinner {
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              border: 2px solid #ffffff;
+              border-top: 2px solid transparent;
+              border-radius: 50%;
+              animation: spin 1s linear infinite;
+            }
+            @keyframes spin {
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          </style>
+        </article>
           </div>
         </section>
       </div>
+
+      <!-- Three -->
+      <section id="three">
+        <div class="inner">
+          <header class="major">
+            <h2>The Reading Station Nuvali</h2>
+          </header>
+          <p>
+            The Reading Station (TRS) is a specialized centre for Early Reading
+            Literacy.
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="teachers.html" class="button next">Go to Teachers</a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <!-- Contact -->
       <section id="contact">
@@ -145,5 +186,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/getfaq.js"></script>
   </body>
 </html>
